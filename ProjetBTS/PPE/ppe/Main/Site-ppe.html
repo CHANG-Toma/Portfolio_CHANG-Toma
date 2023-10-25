@@ -1,0 +1,241 @@
+<html>
+
+<head>
+    <!--Unicode transformation format -->
+    <meta charset="utf-8" /> <!-- Spécifiez l'encodage des caractères -->
+    <title>Photographie culturelle</title> <!-- Titre de la page-->
+    <link rel="stylesheet" href="Style.css"><!-- lier le corp avec le style(CSS) -->
+</head>
+<!-- -->
+
+<body>
+    <div class="Head">
+        <!--Div = nouvelle section -->
+        <!--Creation d'une class -->
+        <nav>
+            <ul class="menu">
+                <!-- Menu contenant des liens cliquable-->
+                <li>
+                    <a
+                        href="https://www.voyagedelegende.com/nos-destinations/polynesie/culture-de-polynesie/">Culture</a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/hauat/Desktop/PPE-HTML&CSS/ppe/formulaire/formulaire.html">Formulaire</a>
+                </li>
+                <li>
+                    <button>Theme</button>
+                    <script>
+                        /* association des variables constante link et boutton*/
+                        const link = document.querySelector('link');
+                        const button = document.querySelector('button');
+                        /* structure du boutton*/
+                        button.addEventListener('click', () => {
+                            if (link.getAttribute('href') === 'Style.css') {
+                                link.setAttribute('href', 'style2.css');
+                            } else {
+                                link.setAttribute('href', 'Style.css');
+                            }
+                        })
+                    </script>
+                </li>
+                <ul class="logo">
+                    <!--Class logo pour le Css -->
+                    <a href="https://www.instagram.com/tom_art_photography_/">
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\Main\logo.jpg" height="80px" width="150px">
+                    </a>
+                </ul>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="dispoTab">
+        <!--Nouvelle class dispoTab -->
+        <fieldset>
+            <!--utilisee pour regrouper des elements avec un cadre autour-->
+            <table>
+                <tr>
+                    <!--Fusion de ligne titre tableau-->
+                    <th colspan="3">Tableau de disponibilité</th>
+                </tr>
+                <tr>
+                    <!--Fusion de plusieurs ligne en colonne-->
+                    <td rowspan="4">Heures</td>
+                    <th> Samedi</th>
+                    <!--th = table head -->
+                    <th> Dimanche</th>
+                </tr>
+                <tr>
+                    <!--tr = table row / nouvelle ligne -->
+                    <td> 9h - 10h</td>
+                    <!--td = table data /Nouvelle cellule -->
+                    <td> 9h - 10h</td>
+                </tr>
+                <tr>
+                    <td>10h15 - 11h15</td>
+                    <td>11h25 - 12h25</td>
+                </tr>
+                <tr>
+                    <td>13h30 - 14h30</td>
+                    <td>14h40 - 15h40</td>
+                </tr>
+                <tr>
+                    <!--colspan = Fusion de ligne-->
+                    <th colspan="3">Pour plus d'information : Clique
+                        <a href="https://www.instagram.com/tom_art_photography_/">
+                            ici!
+                        </a>
+                        <h4>Tom'Art Photography</h4>
+                    </th>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+
+    <div class="tableau">
+        <!--Class tableau pour le Css -->
+        <table>
+            <!--Tableau d'image -->
+            <tr>
+                <!--tr = nouvelle ligne -->
+                <!--th = en-tete du tableau -->
+                <th colspan="5"> Exposition Marae Arahurahu</th>
+                <!--colspan = assemble les colonnes -->
+            </tr>
+            <tr>
+                <!--td = Nouvelle cellule -->
+                <td>
+                    <!--assemble les lignes du tableau -->
+                    Manahau Tahiti
+                </td>
+                <td>
+                    <!--Images du tableau cliquable -->
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic/1.JPG">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic/1.JPG" alt="1" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic\2.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic\2.jpg" alt="2" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic\3.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic\3.jpg" alt="3" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic\4.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic\4.jpg" alt="4" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="tableau2">
+        <!--Class tableau pour le Css -->
+        <table>
+            <!--Tableau d'image -->
+            <tr>
+                <!--tr = nouvelle ligne -->
+                <!--th = en-tete du tableau -->
+                <th colspan="5"> Culture polynésienne</th>
+                <!--colspan = assemble les colonnes -->
+            </tr>
+            <tr>
+                <!--td = Nouvelle cellule -->
+                <td class="titre">
+                    <!--assemble les lignes du tableau -->
+                    Ori Tahiti
+                </td>
+                <td>
+                    <!--Images du tableau cliquable -->
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic2\danse.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic2\danse.jpg" alt="1" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic2\danse2.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic2\danse2.jpg" alt="2" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic2\danse3.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic2\danse3.jpg" alt="3" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic2\danse4.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabPic2\danse4.jpg" alt="4" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="tableau3">
+        <!--Class tableau pour le Css -->
+        <table>
+            <!--Tableau d'image -->
+            <tr>
+                <!--tr = nouvelle ligne -->
+                <!--th = en-tete du tableau -->
+                <th colspan="5"> Sport Polynésien</th>
+                <!--colspan = assemble les colonnes -->
+            </tr>
+            <tr>
+                <!--td = Nouvelle cellule -->
+                <td class="titre">
+                    Tu'aro Maohi
+                </td>
+                <td>
+                    <!--Images du tableau cliquable -->
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport.jpg" alt="1" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport2.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport2.jpg" alt="2" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport3.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport3.jpg" alt="3" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+                <td>
+                    <a href="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport4.jpg">
+                        <!--Image taille original -->
+                        <img src="D:\Users\CHANG Toma\IdeaProjects\Portfolio BTS2 - CHANG Toma\ProjetBTS\PPE\ppe\tabpic3\sport4.jpg" alt="4" height="180px"
+                            width="250px">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

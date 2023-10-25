@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta charset="utf-8" /> <!-- Spécifiez l'encodage des caractères -->
+    <link rel="stylesheet" href="formulaire-style.css"> <!-- lier le corp avec le style(CSS) -->
+    <title>Formulaire</title>
+    <!--Titre de la seconde page -->
+</head>
+<!-- -->
+
+<body>
+    <div class="Head">
+        <!--Class head pour le Css -->
+        <nav>
+            <ul>
+                <h1>Formulaire</h1>
+                <!--Titre visuelle de la page -->
+                <ul class="logo">
+                    <!--Logo principal de la page -->
+                    <a href="https://www.instagram.com/tom_art_photography_/">
+                        <!--Image cliquable -->
+                        <img src="C:\Users\hauat\Desktop\PPE-HTML&CSS\ppe\Main\logo.jpg">
+                    </a>
+                </ul>
+            </ul>
+        </nav>
+    </div>
+    <div class="tableau">
+        <!--Class tableau pour le css -->
+        <fieldset>
+            <form name="Formulaire" method="post" enctype="text">
+                <!--Creation du formulaire -->
+                <table>
+                    <!--Creation d'un tableau -->
+                    <h2>Inscription à la lettre d'information</h2>
+                    <tr>
+                        <!--tr = Nouvelle ligne -->
+                        <th>
+                            <h3>Coordonnées</h3>
+                        </th>
+                        <th>
+                            <!--th = Titre principal de la colonne -->
+                            <h3>S'inscrire à la lettre d'information</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <!--Nouvelle ligne de d'utilisateur-->
+                        <td>
+                            <!--td = Nouvelle cellule -->
+                            <input type="radio" name="civi" value="Mme" /> Madame
+                            <input type="radio" name="civi" value="Mlle" /> Mademoiselle
+                            <input type="radio" name="civi" value="Mr" /> Monsieur
+                        </td>
+                    </tr>
+                    <tr>
+                        <!--Ligne concernant l'utilisateur -->
+                        <td>
+                            Vous êtes :
+                            <select name="profil">
+                                <!--différents choix proposé à l'utilisateur -->
+                                <option value="parti">Un particulier</option>
+                                <option value="profe">Un professionnel</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nom : <input name="nom" type="text" size="30">
+                            <!--Cellule visible par l'utilisateur -->
+                        </td>
+                        <td>
+                            <input type="checkbox" name="lettre" /> Je souhaite recevoir la lettre d'information
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Prénom : <input name="prenom" type="text" size="30">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="offres" /> J'accepte de recevoir des offres des partenaires
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Adresse Mail: <input name="Mail" type="text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Adresse : <input name="adresse" type="text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Téléphone : <input name="telephone" type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="S'inscrire">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    <h4>
+        <a href="file:///C:/Users/hauat/Desktop/PPE-HTML&CSS/ppe/Main/Site-ppe.html">Retour</a>
+    </h4>
+</body>
+
+</html>

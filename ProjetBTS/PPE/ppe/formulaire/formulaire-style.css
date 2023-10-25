@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(231, 231, 231);/*couleur general de fond*/
+}
+.Head {
+  background-color: black;/*couleur de l'en-tete*/
+  height: 80px;
+  }  
+h1 {
+  color: rgb(255, 255, 255); /*couleur du contenu*/
+  letter-spacing: 0.1rem;/*espace entre chaque lettre*/
+  text-align: center;/*aligne le texte au centre*/
+  padding: 1.5%; /*Espace*/
+}
+h4 {
+  text-align: center;/*aligne le texte au centre*/
+  padding: 1.5%; /*espace*/
+  font-size: 20px;
+}
+h4 a:hover{ /*effet en survole*/
+  color: rgb(109, 236, 109);
+}
+fieldset{
+  margin-top: 10px; /*Marge au dessus du formulaire*/
+  color: white; /*couleur du texte*/
+  background-color: #000000; /*couleur de fond du formulaire*/
+  margin-right: auto; /*definit automatiquement sa marge droite*/
+  margin-left: auto;  /*definit automatiquement sa marge gauche*/
+  width: 700px;
+}
+h2{ /*en-tete du formulaire*/
+  background-color: rgb(255, 255, 255); /*couleur de l'en-tete*/
+  color: black;
+  height: 40px; /*indique sa position*/
+  margin: 10px; /*indique sa position*/
+  text-align: center; /*aligne le texte au centre de l'en-tete general*/
+}
+.logo a img{
+  position: absolute; /*definit la position de l'image*/
+  height: 80px; /*definit la hauteur de l'image*/
+  width: 150px; /*definit la largeur de l'image*/
+  right:9px; /*place l'image*/
+  top: 8px; /* place l'image*/
+}
+td{
+  color: white;/* couleur du contenu*/
+  font-size: 17px; /*taille de police*/
+  text-align: right;
+}
+.tableau fieldset table{
+  width: 750px; /*Largeur de l'element*/
+}
+h3 {
+  color: white;
+}

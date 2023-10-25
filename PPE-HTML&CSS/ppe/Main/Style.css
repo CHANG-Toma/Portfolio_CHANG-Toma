@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(240, 240, 240);  /*Couleur general de fond*/
+  }
+
+.Head {
+  background-color: black; /*Couleur de fond de l'en-tete*/
+  height: 80px; /* attibue la hauteur d'un element*/
+  margin-bottom: 10px;
+  }  
+.logo a img{
+  float: right; /*Place le logo à gauche droite*/
+}
+ul li a{
+  color: rgb(255, 255, 255); /*couleur du texte*/
+  letter-spacing: 0.1rem; /*distance entre chaque lettre*/
+}
+ul li a:hover{ /*effet en survole de texte*/
+  color: rgb(158, 243, 158); /*couleur de l'effet*/
+}
+.menu li{ /*class "menu"*/
+  float: left; /*place l'element à droite ou à gauche de son contenant*/
+  padding: 35px; /*creer des espaces entre eux*/
+}
+.menu li a{ /*class "menu"*/       
+  text-decoration: none; /*Retire la décoration du texte*/
+}
+button {
+  position: absolute; /*position du bouton*/
+}
+th {
+  color: rgb(255, 255, 255); /* couleur du texte*/
+}
+td {
+  color: rgb(255, 255, 255); /*couleur du texte*/ 
+}
+
+/*//////////////////*/
+.tableau table { /*class "tableau"*/
+  position: absolute;
+  right: 9px;
+  top: 100px; /* place l'image*/
+  text-align: center; /*aligne le texte en fonction du choix*/
+  border-color: rgb(0, 0, 0); /*couleur des bordures du tableau*/
+  width: 50%; /* largeur dans la page */
+  background-color: #000000;   /* couleur de fond du tableau */
+} 
+.tableau2 table { /*class "tableau"*/
+  position: absolute; 
+  right: 9px;
+  top: 310px; /* place l'image*/
+  text-align: center; /*aligne le texte en fonction du choix*/
+  border-color: rgb(0, 0, 0); /*couleur des bordures du tableau*/
+  width: 50%; /* largeur dans la page */
+  background-color: #000000;   /* couleur de fond du tableau */
+  margin-top: 10px; /* marge au dessus*/
+  padding-left: 22px;
+  } 
+.tableau3 table { /*class "tableau"*/
+  position: absolute;
+  right: 9px;
+  top: 530px; /* place l'image*/
+  text-align: center; /*aligne le texte en fonction du choix*/
+  border-color: rgb(0, 0, 0); /*couleur des bordures du tableau*/
+  width: 50%; /* largeur dans la page */
+  background-color: #000000;   /* couleur de fond du tableau */
+  margin-top: 10px; /* marge au dessus*/
+  padding-left: 17px;
+  }
+
+/*///////////////////////*/
+fieldset{
+  margin-top: 10px; /*Marge au dessus du formulaire*/
+  background-color: #000000; /*couleur de fond du formulaire*/
+  margin-right: auto; /*definit automatiquement sa marge droite*/
+  margin-left: auto;  /*definit automatiquement sa marge gauche*/
+}
+.dispotab{
+  width: 300px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 50px;
+  top: 130px; 
+}
+.dispoTab th {
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+.dispoTab td{
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+.dispoTab a{
+  color: #ffffff;
+}

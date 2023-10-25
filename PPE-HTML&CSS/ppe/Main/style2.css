@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(0, 0, 0);  /*Couleur general de fond*/
+    }
+  
+  .Head {
+    background-color: rgb(219, 219, 219); /*Couleur de fond de l'en-tete*/
+    height: 80px; /* attibue la hauteur d'un element*/
+    margin-bottom: 10px;
+    }  
+  .logo a img{
+    float: right; /*Place le logo à gauche droite*/
+  }
+  ul li a{
+    color: rgb(0, 0, 0); /*couleur du texte*/
+    letter-spacing: 0.1rem; /*distance entre chaque lettre*/
+  }
+  ul li a:hover{ /*effet en survole de texte*/
+    color: rgb(158, 243, 158); /*couleur de l'effet*/
+  }
+  .menu li{ /*class "menu"*/
+    float: left; /*place l'element à droite ou à gauche de son contenant*/
+    padding: 35px; /*creer des espaces entre eux*/
+    color: #d6d6d6;
+  }
+  .menu li a{ /*class "menu"*/       
+    text-decoration: none; /*Retire la décoration du texte*/
+  }
+  button {
+    position: absolute;
+  }
+  th {
+    color: rgb(0, 0, 0); /* couleur du texte*/
+  }
+  td{
+    color: #000000;
+  }
+
+/*//////////////////*/
+.tableau table { /*class "tableau"*/
+  position: absolute;
+  right: 9px;
+  top: 100px; /* place l'image*/
+  text-align: center; /*aligne le texte en fonction du choix*/
+  border-color: rgb(219, 219, 219); /*couleur des bordures du tableau*/
+  width: 50%; /* largeur dans la page */
+  background-color: #ffffff;   /* couleur de fond du tableau */
+  } 
+.tableau2 table { /*class "tableau"*/
+  position: absolute;
+  right: 9px;
+  top: 310px; /* place l'image*/  text-align: center; /*aligne le texte en fonction du choix*/
+  border-color: rgb(219, 219, 219); /*couleur des bordures du tableau*/
+  width: 50%; /* largeur dans la page */
+  background-color: #ffffff;   /* couleur de fond du tableau */
+  margin-top: 10px; /* marge au dessus*/
+  padding-left: 22px;
+} 
+.tableau3 table { /*class "tableau"*/
+  position: absolute;
+  right: 9px;
+  top: 530px; /* place l'image*/  
+  text-align: center; /*aligne le texte en fonction du choix*/
+  border-color: rgb(219, 219, 219); /*couleur des bordures du tableau*/
+  width: 50%; /* largeur dans la page */
+  background-color: #ffffff;   /* couleur de fond du tableau */
+  margin-top: 10px; /* marge au dessus*/
+  padding-left: 17px;
+} 
+/*///////////////////////*/
+fieldset{
+  margin-top: 10px; /*Marge au dessus du formulaire*/
+  background-color: #f3f2f2; /*couleur de fond du formulaire*/
+  margin-right: auto; /*definit automatiquement sa marge droite*/
+  margin-left: auto;  /*definit automatiquement sa marge gauche*/
+}
+.dispotab{
+  width: 300px; /*largeur dans la page*/
+  margin-bottom: 20px; /*Marge du bas*/
+  position: absolute;
+  left: 50px; /*emplacement*/
+  top: 130px; 
+}
+.dispoTab th { /*couleur et bordure des en-tete*/
+  color: #000000;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px; /*creer des espaces entre eux*/
+}
+.dispoTab td{ /*couleur et bordure des cellules*/
+  color: #000000;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px; /*creer des espaces entre eux*/
+}
+.dispoTab a{
+  color: #000000;
+}
